@@ -10,7 +10,7 @@ dbt-cloud:
 profile: jaffle-shop-japanese # Put your profile here
 
 model-paths: ["models"]
-analysis-paths: ["analyses"]
+analysis-paths: ["analyses","aaaaa"] # analytis = テーブルを作らないSQLを格納する
 test-paths: ["data-tests"]
 seed-paths: ["seeds", "jaffle-data"]
 macro-paths: ["macros"]
